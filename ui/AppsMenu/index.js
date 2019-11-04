@@ -58,7 +58,7 @@ module.exports = () => {
         dom.update();
       },
     }, [
-      dom.el(BtnIcon(), { class: 'appsMenu-btnIcon' }),
+      dom.el(BtnIcon, { class: 'appsMenu-btnIcon' }),
     ]),
 
     dom.el('div', {
